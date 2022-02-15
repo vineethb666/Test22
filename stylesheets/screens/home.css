@@ -1,0 +1,54 @@
+.nav-container{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-container{
+    margin-bottom: 0;
+}
+
+.nav-item{
+    padding: .5rem;
+}
+
+.home-img{
+    height: 85vh;
+}
+
+.home-welcome{
+    color: var(--helper-color);
+    letter-spacing: 2px;
+    top: 40%;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.category-container {
+    margin: 2rem 5rem;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.card {
+    transition: 0.5s all ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width:550px) {
+    body{
+        margin-top: 10rem;
+    }
+    .category-container {
+        margin: 2rem 0;
+        justify-self: center;
+    }
+    .home-img {
+        height: 65vh;
+    }
+}

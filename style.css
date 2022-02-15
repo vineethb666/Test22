@@ -1,0 +1,52 @@
+@import url(./stylesheets/main.css);
+
+.nav-container {
+    background-color: var(--secondary-color);
+}
+
+.signup-body{
+    background-image: url("./assets/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    block-size: auto;
+    height: 100%;
+}
+
+.signup-container{
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-section{
+    padding: 1rem;
+    background-color: var(--doc-bg);
+    border-radius: 1rem;
+    width: 25rem;
+    margin-top: 5rem;
+}
+
+.btn-active {
+    font-weight: bolder;
+    border: 1px solid var(--white-color);
+}
+
+.create-account-link:hover{
+    background-color: transparent;
+}
+
+@media  screen and (max-width:500px) {
+    .signup-body{
+        background: none;
+    }
+    .signup-container {
+        margin: auto;
+        align-items: baseline;
+        justify-content: center;
+    }
+    .signup-section{
+        background-color: transparent;
+        margin-top: 0;
+    }
+}

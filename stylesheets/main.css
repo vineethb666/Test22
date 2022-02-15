@@ -1,0 +1,5 @@
+@import url("https://ui-cookbook.netlify.app/stylesheets/index.css");
+@import url("../stylesheets/screens/home.css");
+@import url("../stylesheets/screens/productslist.css");
+@import url("../stylesheets/screens/signin.css");
+@import url("../stylesheets/screens/wishlist.css");

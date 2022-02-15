@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>SignUp | ArtStation</title>
+</head>
+
+<body>
+    <div class="signup-body">
+        <nav class="nav-container d-flex">
+            <div class="nav-brand d-flex">
+                <button class="fa fa-bars btn btn-link nav-btn"></button>
+                <h2 class="nav-brand-name">ArtStation</h2>
+            </div>
+
+            <div class="nav-brand d-flex">
+                <button class="btn btn-link nav-btn " id="signup">SignUp</button>
+                <button class="btn btn-link nav-btn btn-active" id="login">Login</button>
+            </div>
+
+
+            <div class="nav-pills d-flex">
+                <ul class="list list-no-bullet d-flex">
+                    <li class="list-item">
+                        <a class="btn btn-link nav-btn " href="./screens/home.html"><i
+                                class="fa fa-solid fa-home"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a class="btn btn-link nav-btn "><i class="fa fa-solid fa-heart"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a class="fa fa-shopping-cart btn btn-link nav-btn"></a>
+                    </li>
+
+                </ul>
+                <button class="fa fa-user btn btn-link nav-btn"></button>
+            </div>
+        </nav>
+
+        <main class="signup-container d-flex">
+            <section class="signup-section d-grid grid-gap" id="login-section">
+                <h3 class="text-center">Login</h3>
+                <div class="d-grid">
+                    <label>
+                        <h5>Username or Email</h5>
+                    </label>
+                    <input type="text" placeholder="enter your username">
+                    <div class="helper-message hide">
+                        Helper message
+                    </div>
+                    <div class="error-message hide">
+                        Enter valid mail.
+                    </div>
+                </div>
+                <div class="d-grid">
+                    <!-- TODO: change type to password -->
+                    <label>
+                        <h5>Password</h5>
+                    </label>
+                    <input type="text" placeholder="enter your password">
+                    <div class="helper-message hide">
+                        Helper message
+                    </div>
+                    <div class="error-message hide">
+                        Wrong Password. Try again.
+                    </div>
+                </div>
+
+                <button class="btn btn-secondary">LOGIN</button>
+                <div class="d-grid col-eq-2 grid-gap">
+                    <span>
+                        <input type="checkbox" id="remember-me" name="remember-me">
+                        <label for="remember-me">Remember me</label>
+                    </span>
+
+                    <a href="#">
+                        Forgot your password
+                    </a>
+                </div>
+                <button class="btn btn-link create-account-link">Create new account &nbsp;<i
+                        class="fa fa-solid fa-angle-right"></i></button>
+            </section>
+
+            <section class="signup-section d-grid grid-gap hide" id="signup-section">
+                <h3 class="text-center">Sign-up</h3>
+                <div class="d-grid">
+                    <label>
+                        Username or Email
+                    </label>
+                    <input type="text" placeholder="enter your username">
+                    <div class="helper-message hide">
+                        Helper message
+                    </div>
+                    <div class="error-message hide">
+                        Enter valid mail.
+                    </div>
+                </div>
+                <div class="d-grid">
+                    <!-- TODO: change type to password -->
+                    <label>
+                        Password
+                    </label>
+                    <input type="text" placeholder="enter your password">
+                    <div class="helper-message hide">
+                        Helper message
+                    </div>
+                    <div class="error-message hide">
+                        Wrong Password. Try again.
+                    </div>
+                </div>
+                <div class="d-grid">
+                    <label>
+                        Re-enter Password
+                    </label>
+                    <input type="text" placeholder="enter your password">
+                    <div class="helper-message hide">
+                        Helper message
+                    </div>
+                    <div class="error-message hide">
+                        Wrong Password. Try again.
+                    </div>
+                </div>
+
+                <div class="d-grid">
+                    <!-- TODO: change type to password -->
+                    <label>
+                        Mobile number
+                    </label>
+                    <input type="text" placeholder="enter your mobile number">
+                    <div class="helper-message hide">
+                        Helper message
+                    </div>
+                    <div class="error-message hide">
+                        Wrong Password. Try again.
+                    </div>
+                </div>
+
+                <button class="btn btn-secondary">SIGNUP</button>
+            </section>
+        </main>
+
+    </div>
+    <script src="./js/signin.js"></script>
+</body>
+
+</html>
